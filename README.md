@@ -1,6 +1,20 @@
 Go into remix and use 0.8.20 compiler
+
+Before compiling Change these
+
+line 10 contract HelloToken
+Change HelloToken to your new token name.
+
+Line 18 constructor() ERC20("HelloToken", "HELLO") Ownable(msg.sender) { 
+Change HelloTOken to new token name and HELLO to new token symbol - Keep it 3 to 4 characters
+
+Line 19 _mint(msg.sender, 100000000000000000000000000000000000000000000000000000000000000000000000000000 * 10**decimals());
+Change 10000000000000000000000000000000000000000000000000000000000000000000 to the amount you want and add 10 0's to it
+
+After compiling go to button below compile to deploy section
 Use Injected provider - metamask to create contract
-hit Deploy and watch your token contract being created
+
+Press Deploy and watch your token contract being created
 When created, go back to metamask where activity is and press the transaction then hit view on explorer and wahlah.
 
 For this example, here is the link to created token
