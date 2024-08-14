@@ -19,3 +19,5 @@ When created, go back to metamask where activity is and press the transaction th
 
 For this example, here is the link to created token
 https://basescan.org/tx/0x2769331839c36b27451722381cc9f64135d4766d4150bf1fe1e64746427382b9
+
+Reason for doing this is because it cost literally less than a cent to a few cents to create a contract as opposed to spending alot on eth mainnet.
